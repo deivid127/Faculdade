@@ -1,0 +1,19 @@
+#conteiner{
+    display: flex;
+    justify-content:space-between;
+}
+.item{
+    border: 1px solid black;
+    background-color: burlywood;
+    width: 100px;
+    height: 100px;
+}
+.item1{
+    flex-grow: 1;
+}
+.item2{
+    flex-grow: 2;
+}
+.item3{
+    flex-grow: 3;
+}

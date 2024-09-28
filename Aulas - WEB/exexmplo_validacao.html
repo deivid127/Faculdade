@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Validação</title>
+    <style>
+        span {
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <form name="form1" action="grava.jsp" method="get">
+        <fieldset>
+            <legend>Cadastro</legend>
+            <label for="txtnome">Nome:</label>
+            <input type="text" name="txtnome" id="txtnome">
+            <span id="erronome"></span>
+            <br>
+<label for="txtidade">Idade:</label>
+            <input type="text" name="txtidade" id="txtidade">
+            <span id="erroidade"></span>
+            <br>
+
+            <label for="txtemail">Email:</label>
+            <input type="text" name="txtemail" id="txtemail">
+            <span id="erroemail"></span>
+            <br>
+
+            <input type="button" value="Gravar" onclick="verificar()" >
+        </fieldset>
+    </form>
+    <script src="exemplo_validacao.js"></script>
+</body>
+</html>

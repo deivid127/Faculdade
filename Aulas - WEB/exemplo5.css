@@ -1,0 +1,28 @@
+.cabeçalho{
+
+    background-color: black;
+    padding: 20px;
+    color: rgb(127, 161, 255);
+
+}
+
+.titulo1{
+    background-color: rgb(127, 161, 255);
+    border-left: 15px solid aquamarine;
+    padding-left: 10px;
+}
+
+.titulo2{
+    background-color: rgb(127, 161, 255);
+    border-left: 15px solid aquamarine;
+    padding-left: 10px;
+}
+
+.texto1{
+    color: white;
+    border-left: 10px solid gray;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 5px;
+    font-size: 20px;
+    background-color: black;
+}

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <title>IASD</title>
+    <link rel="icon" type="image/png" href="./image/icon.png">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <header>
+        <div>
+            <ul class="nav">
+                <img src="./image/banner.png">
+                <tr>
+                    <td>
+                        <li><button style="border-radius: 10px;"><a class="botao"
+                                    href="indexIASD.html">Inicio</a></button></li>
+                    </td>
+                    <li><a class="botao" href="contact.html"><button style="border-radius: 10px;">Informações</a></li>
+                    </button>
+                    <li><a class="botao" href="donate.html"><button style="border-radius: 10px;">Doe aqui!</a></li>
+                    </button>
+                </tr>
+            </ul>
+        </div>
+    </header>
+    <br>
+    <div class="form">
+        <form name="form1" method="post" action="grava.jsp">
+            <label for="txtname">Nome completo: </label><br><br>
+            <input type="text" name="txtname" placeholder="Ex.:Maxuell Henrique..." id="txtname" maxlength="40"><br>
+            <br><br>
+
+            <label for="txtcpf">CPF/CNPJ (Apenas números): </label><br><br>
+            <input type="password" name="txtcpf" placeholder="Ex:44455566677" id="txtcpf" maxlength="11"><br><br>
+            <input type="checkbox" onclick="myFunction()">Mostrar CPF
+            
+            <script>
+            function myFunction() {
+              var x = document.getElementById("txtcpf");
+              if (x.type === "password") {
+                x.type = "text";
+              } else {
+                x.type = "password";
+              }
+            }
+            </script>
+            <br><br>
+
+            <label for="txtemail">Email: </label><br><br>
+            <input type="email" name="txtemail" placeholder="Julio@gmail.com" id="txtemail" maxlength="40"><br>
+            <br><br>
+
+            <label for="donate">Valor da doaçao(Apenas números): </label><br><br>
+            R$ <input type="password" name="donate" placeholder="Ex:344.90" id="donate" maxlength="40"><br><br>
+            <input type="checkbox" onclick="myFunction1()">Mostrar Valor
+            
+            <script>
+            function myFunction1() {
+              var x = document.getElementById("donate");
+              if (x.type === "password") {
+                x.type = "text";
+              } else {
+                x.type = "password";
+              }
+            }
+            </script><br><br>
+            <input type="submit" value="Gravar">
+            <input type="reset" value="Limpar">
+        </form>
+    </div>
+    <br>
+    <div id="footer">
+        <br>
+        <h4>@Projeto ENIAC</h4>
+        <h5>Pedro Cassorla - RA: 206902024 Vinicius Oliveira Andrade - RA: 208602024 Deivid Martins Leite - RA:
+            229502024 </h5>
+        <h5>Negócios em TI - Canvas - Sprint 3 - Professor: Nelson Luzetti Criado</h5><br>
+    </div>
+    </div>
+    </div>
+</body>
+
+</html>

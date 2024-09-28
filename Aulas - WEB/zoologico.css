@@ -1,0 +1,301 @@
+body, h1, h2, p, ul, li{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.black{
+    color: black;
+    display: block;
+    background: black;
+}
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+header{
+    background: #1f58d1;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90px;
+    background-color: #1f58d1;
+}
+header h1{
+    margin-bottom: 0.5rem;
+
+}
+
+nav ul{
+    list-style: none;
+    padding: 0;
+}
+nav ul li{
+    display: inline;
+    margin: 0 1rem;
+}
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    text-decoration: underline;
+}
+main img{
+    max-width: 25%;
+    height: auto;
+    border: 1px solid #f4f4f4ff;
+    padding: 1rem 0;
+    float: left;
+
+}
+.começo{
+    font-size: 30px;
+    text-align: center;
+}
+.textozoo{
+    padding: 40px;
+    border-radius: 20px;
+    font-size: 19px;
+    background: #f4f4f4;
+    background-size: 10px;
+}
+.white{
+    color: #f4f4f4ff;
+}
+.zoo img{
+    margin: 20px;
+}
+.info{
+    display: block;
+    background: #1f58d1;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: justify;
+    font-size: 17px;
+    color: #f4f4f4;
+    border: 1px solid #000;
+}
+.animaisminitexto{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90px;
+    background-color: #1f58d1;
+}
+.animaisminitexto h2{
+    text-align: center;
+    font-size: 30px;
+    display: block;
+    background-color: #1f58d1;
+    color: #f4f4f4;
+    padding: 15px;
+
+}
+.animaisminitexto p{
+    text-align: center;
+    font-size: 25px;
+    display: block;
+    background-color: #1f58d1;
+    color: #f4f4f4;
+
+}
+.animaisminitexto ul{
+    list-style: none;
+    padding: 15px;
+    text-align: center;
+    display: block;
+    background-color: #1f58d1;
+    color: #f4f4f4;
+
+}
+.animaisminitextoul ul li{
+    display: inline;
+    margin: 0 1rem;
+    color: #f4f4f4;
+
+}
+.animaisminitexto li a {
+    color: #333;
+    text-decoration: none;
+    color: #f4f4f4;
+
+}
+.animaisminitexto ul li a:hover{
+    text-decoration: underline;
+
+}
+.aves h2{
+    text-align: center;
+    display: block;
+    background-color: #000;
+    color: #f4f4f4;
+    padding: 20px;
+}
+.araraver h3{
+    padding: 20px;
+    font-size: 22px;
+}
+.araraver img{
+    padding: 20px;
+    float: left;
+    width: 23%;
+    height: auto;
+}
+.araraver p{
+    font-size: 18px;
+    padding: 45px;
+    background: #f4f4f4;
+    background-size: 10px;
+}
+.papagaio h3{
+    margin: 20px;
+    font-size: 22px;
+}
+.papagaio img{
+    margin: 20px;
+    float: left;
+}
+.papagaio p{
+    font-size: 18px;
+    padding: 32px;
+    background: #f4f4f4;
+    background-size: 10px;
+}
+.tucano h3{
+    padding: 20px;
+    font-size: 22px;
+}
+.tucano img{
+    margin: 20px;
+    float: left;
+    width: 31%;
+}
+.tucano p{
+    padding: 21px;
+    border-radius: 20px;
+    font-size: 17px;
+    background: #f4f4f4;
+    background-size: 10px;
+}
+.mamíferos h2{
+    text-align: center;
+    display: block;
+    background-color: #000;
+    color: #f4f4f4;
+    padding: 20px;
+}
+.lobo h3{
+    padding: 20px;
+    font-size: 22px;
+}
+.lobo img{
+    margin: 20px;
+    width: 27%;
+    float: left;
+}
+.lobo p{
+    padding: 30px;
+    border-radius: 20px;
+    font-size: 17px;
+    background: #f4f4f4;
+    background-size: 10px;
+}
+.onça h3{
+    padding: 20px;
+    font-size: 22px;
+}
+.onça img{
+    margin: 20px;
+    float: left;
+    width: 23%;
+}
+.onça p{
+    padding: 45px;
+    border-radius: 20px;
+    font-size: 17px;
+    background: #f4f4f4;
+    background-size: 10px;
+}
+.tatu h3{
+    padding: 20px;
+    font-size: 22px;
+}
+.tatu img{
+    margin: 20px;
+    float: left;
+}
+.tatu p{
+    padding: 60px;
+    border-radius: 20px;
+    font-size: 17px;
+    background: #f4f4f4;
+    background-size: 10px;
+}
+.reptil h2{
+    text-align: center;
+    display: block;
+    background-color: #000;
+    color: #f4f4f4;
+    padding: 20px;
+}
+.jacare h3{
+    padding: 20px;
+    font-size: 22px;
+}
+.jacare img{
+    margin: 20px;
+    width: 27%;
+    float: left;
+}
+.jacare p{
+    padding: 30px;
+    border-radius: 20px;
+    font-size: 17px;
+    background: #f4f4f4;
+    background-size: 10px;
+}
+.jiboia h3{
+    padding: 20px;
+    font-size: 22px;
+}
+.jiboia img{
+    margin: 20px;
+    width: 23%;
+    float: left;
+}
+.jiboia p{
+    padding: 70px;
+    border-radius: 20px;
+    font-size: 17px;
+    background: #f4f4f4;
+    background-size: 10px;
+}
+.tartaruga{
+    padding: 20px;
+    font-size: 22px;
+}
+.tartaruga img{
+    margin: 20px;
+    float: left;
+    width: 23%;
+}
+.tartaruga p{
+    padding: 75px;
+    border-radius: 20px;
+    font-size: 17px;
+    background: #f4f4f4;
+    background-size: 10px;
+}
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background: #1f58d1;
+    color: #fff;
+}
